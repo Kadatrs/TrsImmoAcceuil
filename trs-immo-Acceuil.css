@@ -29,10 +29,12 @@ footer {
 
   
 nav {
+    width: auto;
     background-color: #333;
     display: flex;
     justify-content: center;
     padding: 10px;
+    margin: 0;
   }
 
 
@@ -55,6 +57,10 @@ nav a {
     justify-content: center;
 }
 
+
+
+
+
 #on {
     background-color: rgb(135, 6, 6);
 }
@@ -65,7 +71,7 @@ nav a {
 .leysra {
     background-color: red;
     margin-right: 15px;
-    width: 325px;
+    width: 20%;
     height: 440px;
     padding: 20px;
     display: flex;
@@ -85,7 +91,7 @@ nav a {
     background-color: red;
     margin-right: 15px;
     margin-left: 15px;
-    width: 325px;
+    width: 20%;
     height: 400px;
     padding: 20px;
     display: flex;
@@ -103,7 +109,7 @@ nav a {
 .leymna {
     background-color: red;
     margin-left: 15px;
-    width: 325px;
+    width: 20%;
     height: 440px;
     padding: 20px;
     display: flex;
@@ -123,3 +129,32 @@ nav a {
     width: 100%;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .services {
+      flex-direction: column;
+      align-items: center;
+       }
+
+    .leymna {
+        width: 50%;
+        padding: 5px;
+        margin: 0;
+        }
+    
+
+    .leysra {
+        width: 50%;
+        padding: 5px;
+        margin: 0;
+        margin-bottom: 5px;
+        }
+
+    .lwaste {
+        width: 50%;
+        padding: 5px;
+        margin: 0;
+        margin-bottom: 5px;
+        }
+    
+    }
